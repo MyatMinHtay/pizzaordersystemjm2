@@ -1,0 +1,17 @@
+html{
+    scroll-behavior: smooth;
+}
+
+
+#code-lab-pizza{
+    animation: shake 1s linear infinite;
+}
+
+@keyframes shake{
+    form{
+        transform: scale(1);
+    }
+    to{
+        transform: scale(0.98);
+    }
+}
